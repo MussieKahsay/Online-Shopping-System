@@ -7,6 +7,7 @@ This is our online shopping project
 
 # Place Order Sequence Diagram ![sequenceDiagram-1](https://github.com/user-attachments/assets/da1a2053-f3e9-4206-944d-74fa6ca8ca6d)
 
-# Add User Sequence Diagram ![SequenceDiagram-2](https://github.com/user-attachments/assets/3d951ab4-b837-4d15-87bb-f1e89b6a3ead)
+# Add User Sequence Diagram
+![SequenceDiagram-2](https://github.com/user-attachments/assets/3d951ab4-b837-4d15-87bb-f1e89b6a3ead)
 
 
