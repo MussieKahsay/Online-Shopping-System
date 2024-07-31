@@ -13,7 +13,7 @@ This is our online shopping project
 
 # Architectural Design for online shopping system
 
-<img width="750" alt="Architecture_Design" src="https://github.com/user-attachments/assets/08e90a1d-78dd-454f-9b89-e9ca59359767">
+<img width="1000" alt="Architecture_Design" src="https://github.com/user-attachments/assets/08e90a1d-78dd-454f-9b89-e9ca59359767">
 
 # Class diagram ![WhatsApp Image 2024-07-30 at 22 18 42_16282bed](https://github.com/user-attachments/assets/d6ea9d60-55c0-4c3e-892f-4e959145abb1)
 
