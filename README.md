@@ -11,9 +11,9 @@ This is our online shopping project
 # Add User Sequence Diagram
 ![SequenceDiagram-2](https://github.com/user-attachments/assets/3d951ab4-b837-4d15-87bb-f1e89b6a3ead)
 
-# Architectural Design for online-shopping-system
+# Architectural Design for online shopping system
 
-<img width="487" alt="Architecture" src="https://github.com/user-attachments/assets/37c7d341-6456-49a5-af44-86796632c1a7">
+<img width="750" alt="Architecture_Design" src="https://github.com/user-attachments/assets/08e90a1d-78dd-454f-9b89-e9ca59359767">
 
 # Class diagram ![WhatsApp Image 2024-07-30 at 22 18 42_16282bed](https://github.com/user-attachments/assets/d6ea9d60-55c0-4c3e-892f-4e959145abb1)
 
