@@ -22,8 +22,7 @@ import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.logging.log4j.message.Message;
-import org.jetbrains.annotations.NotNull;
+
 
 @Data
 @Entity
