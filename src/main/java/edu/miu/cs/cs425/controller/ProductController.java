@@ -1,6 +1,8 @@
 package edu.miu.cs.cs425.controller;
+import edu.miu.cs.cs425.dto.ProductDto;
 import edu.miu.cs.cs425.model.Product;
 import edu.miu.cs.cs425.service.ProductService;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
@@ -24,7 +26,7 @@ public class ProductController {
     }
 
     @PutMapping("/update/{productId}")
-    public ResponseEntity<Product> updateProduct( @PathVariable Integer productId, @Valid @RequestBody ProductDTO updatedProduct) {
+    public ResponseEntity<Product> updateProduct( @PathVariable Integer productId, @Valid @RequestBody ProductDto updatedProduct) {
         Product updatedProductResult = productService.updateProduct(productId, updatedProduct);
         return new ResponseEntity<>(updatedProductResult, HttpStatus.OK);
     }
