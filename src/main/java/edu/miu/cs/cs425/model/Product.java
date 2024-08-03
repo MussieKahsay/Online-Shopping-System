@@ -37,8 +37,8 @@ public class Product {
     @Column(name = "product_id")
     private Integer productId;
 
-    @NotNull(Message = "Product name is Mandatory ,can Not Be Null")
-    @NotBlank(Message = "Product name is Mandatory")
+    @NotNull(message = "Product name is Mandatory ,can Not Be Null")
+    @NotBlank(message = "Product name is Mandatory")
     @Column(name = "name")
     private String name;
 
