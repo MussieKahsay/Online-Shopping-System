@@ -6,6 +6,7 @@ import java.util.Optional;
 import edu.miu.cs.cs425.exception.ShipperException;
 import edu.miu.cs.cs425.model.Shipper;
 import edu.miu.cs.cs425.repository.ShipperRepository;
+import edu.miu.cs.cs425.repository.ShippingRepository;
 import edu.miu.cs.cs425.service.ShipperService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

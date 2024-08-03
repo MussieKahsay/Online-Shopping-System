@@ -5,7 +5,6 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import edu.miu.cs.cs425.model.CartItem;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -30,10 +29,10 @@ public class Cart {
 
     Double totalAmount;
 
-//    @JsonIgnore
-//    @OneToOne
-//    @JoinColumn(name = "user_id")
-//    private User user;
+    @JsonIgnore
+    @OneToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
     @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL)
     private List<CartItem> cartItems=new ArrayList<>();

@@ -6,12 +6,13 @@ import java.util.List;
 import edu.miu.cs.cs425.exception.ReviewException;
 import edu.miu.cs.cs425.model.Product;
 import edu.miu.cs.cs425.model.Review;
+import edu.miu.cs.cs425.model.User;
 import edu.miu.cs.cs425.repository.ProductRepository;
 import edu.miu.cs.cs425.repository.ReviewRepository;
+import edu.miu.cs.cs425.repository.UserRepository;
 import edu.miu.cs.cs425.service.ReviewService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

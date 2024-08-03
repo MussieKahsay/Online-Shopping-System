@@ -2,7 +2,6 @@ package edu.miu.cs.cs425.service;
 
 import edu.miu.cs.cs425.exception.AddressException;
 import edu.miu.cs.cs425.model.Address;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

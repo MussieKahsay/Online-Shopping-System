@@ -22,8 +22,10 @@ import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.logging.log4j.message.Message;
-import org.jetbrains.annotations.NotNull;
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
 
 @Data
 @Entity
@@ -37,8 +39,8 @@ public class Product {
     @Column(name = "product_id")
     private Integer productId;
 
-    @NotNull(Message = "Product name is Mandatory ,can Not Be Null")
-    @NotBlank(Message = "Product name is Mandatory")
+    @NotNull(message = "Product name is Mandatory ,can Not Be Null")
+    @NotBlank(message = "Product name is Mandatory")
     @Column(name = "name")
     private String name;
 
