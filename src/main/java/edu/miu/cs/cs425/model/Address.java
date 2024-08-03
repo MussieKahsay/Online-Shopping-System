@@ -47,9 +47,9 @@ public class Address {
     @NotBlank(message = "State Name Mandatory")
     private String state;
 
-//    @ManyToOne
-//    @JsonIgnore
-//    @JoinColumn(name = "userid")
-//    //private User user;
+    @ManyToOne
+    @JsonIgnore
+    @JoinColumn(name = "userid")
+    private User user;
 
 }

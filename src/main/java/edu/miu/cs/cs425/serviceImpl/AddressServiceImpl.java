@@ -9,7 +9,6 @@ import edu.miu.cs.cs425.repository.AddressRepository;
 import edu.miu.cs.cs425.repository.UserRepository;
 import edu.miu.cs.cs425.service.AddressService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

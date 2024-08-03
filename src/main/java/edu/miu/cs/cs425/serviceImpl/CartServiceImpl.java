@@ -1,10 +1,14 @@
 package edu.miu.cs.cs425.serviceImpl;
 
+import edu.miu.cs.cs425.exception.CartException;
+import edu.miu.cs.cs425.exception.ProductException;
 import edu.miu.cs.cs425.model.Cart;
 import edu.miu.cs.cs425.model.CartItem;
+import edu.miu.cs.cs425.model.Product;
 import edu.miu.cs.cs425.model.User;
 import edu.miu.cs.cs425.repository.CartItemRepository;
 import edu.miu.cs.cs425.repository.CartRepository;
+import edu.miu.cs.cs425.repository.ProductRepository;
 import edu.miu.cs.cs425.repository.UserRepository;
 import edu.miu.cs.cs425.service.CartService;
 import jdk.jshell.spi.ExecutionControl;
