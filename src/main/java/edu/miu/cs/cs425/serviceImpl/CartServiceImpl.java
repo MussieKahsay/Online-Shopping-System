@@ -1,5 +1,7 @@
 package edu.miu.cs.cs425.serviceImpl;
 
+
+
 import edu.miu.cs.cs425.exception.CartException;
 import edu.miu.cs.cs425.exception.ProductException;
 import edu.miu.cs.cs425.exception.UserException;
@@ -12,7 +14,6 @@ import edu.miu.cs.cs425.repository.CartRepository;
 import edu.miu.cs.cs425.repository.ProductRepository;
 import edu.miu.cs.cs425.repository.UserRepository;
 import edu.miu.cs.cs425.service.CartService;
-import jdk.jshell.spi.ExecutionControl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -34,7 +35,7 @@ public class CartServiceImpl implements CartService {
                 .orElseThrow(() -> new ProductException("Product not available in Stock..."));
 
         User existingUser = userRepository.findById(userId)
-                .orElseThrow(() -> new ExecutionControl.UserException("User Not Found In Database"));
+                .orElseThrow(() -> new UserException("User Not Found In Database"));
 
         if (existingUser.getCart() != null) {
             Cart userCart = existingUser.getCart();
