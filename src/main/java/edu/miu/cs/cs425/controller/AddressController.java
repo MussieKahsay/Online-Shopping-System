@@ -23,7 +23,7 @@ import jakarta.validation.Valid;
 @RequestMapping("/ecom/customer-addresses")
 public class AddressController {
 
-    private final AddressService addressService;
+    private  AddressService addressService;
 
     @PostMapping("/{userId}")
     public ResponseEntity<Address> addAddressToUser(

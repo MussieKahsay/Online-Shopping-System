@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RequestMapping("/ecom/orders")
 public class OrderController {
-    private final OrdersService ordersService;
+    private  OrdersService ordersService;
 
 
     @PostMapping("/placed/{userid}")
