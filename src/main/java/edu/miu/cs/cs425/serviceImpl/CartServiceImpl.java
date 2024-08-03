@@ -2,6 +2,7 @@ package edu.miu.cs.cs425.serviceImpl;
 
 import edu.miu.cs.cs425.exception.CartException;
 import edu.miu.cs.cs425.exception.ProductException;
+import edu.miu.cs.cs425.exception.UserException;
 import edu.miu.cs.cs425.model.Cart;
 import edu.miu.cs.cs425.model.CartItem;
 import edu.miu.cs.cs425.model.Product;
