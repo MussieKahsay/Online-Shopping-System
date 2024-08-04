@@ -7,7 +7,8 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import Ecom.Enum.OrderStatus;
+
+import edu.miu.cs.cs425.enumtype.OrderStatus;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

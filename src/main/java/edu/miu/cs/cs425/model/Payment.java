@@ -5,8 +5,9 @@ import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import Ecom.Enum.PaymentMethod;
-import Ecom.Enum.PaymentStatus;
+
+import edu.miu.cs.cs425.enumtype.PaymentMethod;
+import edu.miu.cs.cs425.enumtype.PaymentStatus;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -39,7 +40,7 @@ public class Payment {
     private double paymentAmount;
 
     @Enumerated(EnumType.STRING)
-    private  PaymentMethod paymentMethod;
+    private PaymentMethod paymentMethod;
 
     @Enumerated(EnumType.STRING)
     private PaymentStatus paymentStatus;
