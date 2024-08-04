@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class ReviewController {
 
-    private final ReviewService reviewService;
+    private  ReviewService reviewService;
     @PostMapping("/{productId}/{userId}")
     public ResponseEntity<Review> addReviewToProduct(@PathVariable Integer productId, @PathVariable Integer userId,
                                                      @RequestBody Review review) {

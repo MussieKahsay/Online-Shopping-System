@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface AddressRepository extends JpaRepository<Address, Integer> {
 
-  //  @Query("SELECT a FROM Address a  WHERE a.user.userId = :userId")
+    @Query("SELECT a FROM Address a  WHERE a.user.userId = :userId")
     List<Address> getUserAddressList(@Param("userId") Integer userId);
 
 

@@ -15,8 +15,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class AddressServiceImpl implements AddressService {
 
-    private final AddressRepository addressRepository;
-    private final UserRepository userRepository;
+    private  AddressRepository addressRepository;
+    private  UserRepository userRepository;
 
 
     @Override

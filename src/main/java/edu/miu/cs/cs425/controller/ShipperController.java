@@ -20,7 +20,7 @@ import java.util.List;
 @RequestMapping("/ecom/order-shippers")
 public class ShipperController {
 
-    private final ShipperService shipperService;
+    private  ShipperService shipperService;
 
     @GetMapping("/{id}")
     public ResponseEntity<Shipper> getShipperById(@PathVariable Integer id) {
