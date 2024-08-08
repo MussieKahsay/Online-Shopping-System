@@ -1,0 +1,36 @@
+/* Slider.css */
+
+.home-container {
+    width: 100%;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .image-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .fixed-img,
+  .image-column img {
+    width: 100%;
+    height: 70vh; /* Ensure all images have the same height */
+    object-fit: cover;
+  }
+  
+  .cardbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .cardbox img {
+    width: 20%;
+    margin: 10px;
+    object-fit: cover;
+    height: 200px; /* Adjust based on your preference */
+  }
