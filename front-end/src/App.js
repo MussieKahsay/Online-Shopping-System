@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
 import "./App.css";
 import AllRoutes from "./Router/AllRoutes";
@@ -28,6 +30,7 @@ return (
 
 }
 =======
+>>>>>>> 1aaa9651acecfaf2387fab2872919bddebba6997
 import logo from './logo.svg';
 import './App.css';
 
@@ -52,5 +55,8 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
+=======
 >>>>>>> efaa905fd3801567521208eb61d836c5c10a342a
+>>>>>>> 1aaa9651acecfaf2387fab2872919bddebba6997
 export default App;

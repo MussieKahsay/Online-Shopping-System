@@ -1,0 +1,42 @@
+/* src/comp_css/Review.css
+.review-section {
+  margin-top: 20px;
+}
+
+.review {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-review {
+  margin-top: 20px;
+}
+
+.add-review input, .add-review textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-review button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.review-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.review-modal button {
+  margin-top: 10px;
+} */
