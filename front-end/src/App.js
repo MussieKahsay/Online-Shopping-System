@@ -1,3 +1,36 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+import "./App.css";
+import AllRoutes from "./Router/AllRoutes";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { useLocation } from "react-router-dom";
+
+function App() {
+  const location = useLocation();
+
+  const isRestrictedPath = [
+  "/login",
+  "/register-user",
+  "/admin-login",
+  "/admin/admin"
+].includes(location.pathname);
+
+return (
+  <div>
+    {!isRestrictedPath && <Navbar />}
+    <div style={{ minHeight: "90vh" }}>
+      <AllRoutes />
+    </div>
+    {!isRestrictedPath && <Footer />}
+  </div>
+);
+
+}
+=======
+>>>>>>> 1aaa9651acecfaf2387fab2872919bddebba6997
 import logo from './logo.svg';
 import './App.css';
 
@@ -22,4 +55,8 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> efaa905fd3801567521208eb61d836c5c10a342a
+>>>>>>> 1aaa9651acecfaf2387fab2872919bddebba6997
 export default App;
