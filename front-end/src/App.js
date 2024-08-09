@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
 import "./App.css";
 import AllRoutes from "./Router/AllRoutes";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// Example import statement
+import Footer from './components/Footer';
+
 import { useLocation } from "react-router-dom";
 
 function App() {
@@ -29,34 +27,4 @@ return (
 );
 
 }
-=======
->>>>>>> 1aaa9651acecfaf2387fab2872919bddebba6997
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-<<<<<<< HEAD
-=======
->>>>>>> efaa905fd3801567521208eb61d836c5c10a342a
->>>>>>> 1aaa9651acecfaf2387fab2872919bddebba6997
 export default App;
