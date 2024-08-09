@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AllRoutes from "./Router/AllRoutes";
+import Navbar from "./components/Navbar";
+// Example import statement
+import Footer from './components/Footer';
+
+import { useLocation } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  const location = useLocation();
 
+  const isRestrictedPath = [
+  "/login",
+  "/register-user",
+  "/admin-login",
+  "/admin/admin"
+].includes(location.pathname);
+
+return (
+  <div>
+    {!isRestrictedPath && <Navbar />}
+    <div style={{ minHeight: "90vh" }}>
+      <AllRoutes />
+    </div>
+    {!isRestrictedPath && <Footer />}
+  </div>
+);
+
+}
 export default App;
